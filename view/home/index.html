@@ -10,6 +10,16 @@
     </script>
 </head>
 <body>
+    <!-- loading -->
+    <div class="loading">
+        <div class="loader">
+            <div class="ball-triangle-path">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
     <!--首页-->
     <div class="home">
         <div class="home_banner" id="home_banner">
@@ -714,23 +724,29 @@
     <script src="../../public/js/index.js"></script>
     <script>
         $(function(){
-            //banner
-            var homeBanner = new focusSlide($(".home_banner"));
-            homeBanner.init();
+            if(document.readyState === 'complete') {
+                // 等待加载
+                $('.loading').fadeOut();
 
-            //选项卡
-            tabControl("click");
-            $("#listBtn").click(function(){
-                if($(".tab_list ul").hasClass("allShow")){
-                    $(".tab_list ul").removeClass("allShow");
-                    $(".tab_hide span").hide();
-                    unMaskIt($(".tc_con"));
-                }else{
-                    $(".tab_list ul").addClass("allShow");
-                    $(".tab_hide span").show();
-                    maskIt($(".tc_con"));
-                }
-            });
+            }
+                //banner
+                var homeBanner = new focusSlide($(".home_banner"));
+                homeBanner.init();
+
+                //选项卡
+                tabControl("click");
+                $("#listBtn").click(function () {
+                    if ($(".tab_list ul").hasClass("allShow")) {
+                        $(".tab_list ul").removeClass("allShow");
+                        $(".tab_hide span").hide();
+                        unMaskIt($(".tc_con"));
+                    } else {
+                        $(".tab_list ul").addClass("allShow");
+                        $(".tab_hide span").show();
+                        maskIt($(".tc_con"));
+                    }
+                });
+
 
         });
 
