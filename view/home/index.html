@@ -723,12 +723,14 @@
     <script src="../../public/js/multiSlide.js"></script>
     <script src="../../public/js/index.js"></script>
     <script>
-        $(function(){
-            if(document.readyState === 'complete') {
+        document.onreadystatechange = function() {
+            if (document.readyState === 'complete') {
                 // 等待加载
                 $('.loading').fadeOut();
-
             }
+        };
+        $(function(){
+
                 //banner
                 var homeBanner = new focusSlide($(".home_banner"));
                 homeBanner.init();
