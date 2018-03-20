@@ -262,3 +262,7 @@ img {
   height: 1.6rem;
   margin: 0 auto;
 }
+.home .home_con .tab_list .tc_con div span {
+  color: #fc595e;
+  font-size: .32rem;
+}
