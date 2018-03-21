@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>搜索</title>
+    <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+    <style>
+        body{
+            background-color:white;
+        }
+
+    </style>
+    <script>
+        document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/7.5+'px';
+    </script>
+</head>
+<body>
+    <div class="search">
+        <form action="" method="get">
+            <span class="glyphicon glyphicon-search"></span>
+            <input type="search" id="searchPhone" name="searchPhone" placeholder="请输入您想要入保的机型">
+            <button>搜索</button>
+        </form>
+        <div class="search_list " >
+            <div class="search_recent">
+                <span class="glyphicon glyphicon-time"></span>
+                <span>最近搜索</span>
+                <span class="glyphicon glyphicon-trash"></span>
+                <div class="recent_opt">
+                    <span>OPPO R9s</span>
+                    <span>OPPO A73</span>
+                </div>
+            </div>
+            <div class="search_hot">
+                <span class="glyphicon glyphicon-fire"></span>
+                <span>热门机型</span>
+                <div class="hot_opt">
+                    <span>OPPO R9s</span>
+                    <span>OPPO A73</span>
+                    <span>iPhone X</span>
+                    <span>Vivo X20</span>
+                    <span>小米6</span>
+                    <span>P10 PLUS</span>
+                </div>
+            </div>
+        </div>
+        <div class="search_prompt " style="display: none">
+            <div>
+                <p><span>OPPO</span>A3</p>
+                <span></span>
+            </div>
+            <div>
+                <p><span>OPPO</span>R9s</p>
+                <span></span>
+            </div>
+            <div>
+                <p><span>OPPO</span>R9s Plus</p>
+                <span></span>
+            </div>
+            <div>
+                <p><span>OPPO</span>A7</p>
+                <span></span>
+            </div>
+
+        </div>
+    </div>
+<script src="../../public/js/jquery-3.3.1.min.js"></script>
+<script src="../../public/js/focusSlide.js"></script>
+<script src="../../public/js/index.js"></script>
+    <script>
+        $(function(){
+            $('#searchPhone').focus(function () {
+                $('.search_list').hide();
+                $('.search_prompt').show();
+            }).blur(function(){
+                $('.search_prompt').hide();
+                $('.search_list').show();
+
+            })
+        })
+    </script>
+</body>
+</html>

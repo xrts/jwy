@@ -87,10 +87,25 @@
                 </div>
                 <img id="listBtn"   src="../../public/images/home_list.png" alt="">
                 <div class="tab_search">
-                    <input type="search"  placeholder="搜索您要入保的手机型号">
+                    <input type="search" onclick='window.open("search.html")' placeholder="搜索您要入保的手机型号">
                 </div>
                 <div class="mask"></div>
-                <div class="tc_con">
+                <div class=" tc_con">
+                    <div>
+                        <img src="../../public/images/iphoneX.png" alt="">
+                        <p>iPhone X</p>
+                        <span>￥99</span>
+                    </div>
+                    <div>
+                        <img src="../../public/images/iphoneX.png" alt="">
+                        <p>iPhone X</p>
+                        <span>￥99</span>
+                    </div>
+                    <div>
+                        <img src="../../public/images/iphoneX.png" alt="">
+                        <p>iPhone X</p>
+                        <span>￥99</span>
+                    </div>
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -137,7 +152,7 @@
                         <span>￥99</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -184,7 +199,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -232,7 +247,7 @@
                     </div>
 
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -279,7 +294,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                 <div>
                     <img src="../../public/images/iphoneX.png" alt="">
                     <p>iPhone X</p>
@@ -327,7 +342,7 @@
                 </div>
 
             </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -374,7 +389,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -422,7 +437,7 @@
                     </div>
 
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -469,7 +484,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -517,7 +532,7 @@
                     </div>
 
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -564,7 +579,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -612,7 +627,7 @@
                     </div>
 
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/vivo.png" alt="">
                         <p>Vivo</p>
@@ -659,7 +674,7 @@
                         <span>￥100</span>
                     </div>
                 </div>
-                <div class="tc_con">
+                <div class="hidden tc_con">
                     <div>
                         <img src="../../public/images/iphoneX.png" alt="">
                         <p>iPhone X</p>
@@ -781,6 +796,7 @@
                 ConClass = ".tc_con";
             }
             jQuery(document).on(bindEvent, "li", function (e) {
+                $(".tc_con").removeClass('hidden');
                 unMaskIt($(".tc_con"));
 
                 var currentIdx = jQuery(e.currentTarget).index();
