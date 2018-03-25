@@ -83,12 +83,12 @@
                     </ul>
                 </div>
                 <div class="tab_hide">
-                    <span class="hidden">全部分类</span>
+                    <span style="display: none">全部分类</span>
 
                 </div>
                 <img id="listBtn"   src="../../public/images/home_list.png" alt="">
                 <div class="tab_search">
-                    <input type="search" id="inSearch"  placeholder="搜索您要入保的手机型号">
+                    <input type="search" id="inSearch" onClick="location.href='search.html'"  placeholder="搜索您要入保的手机型号">
                 </div>
                 <div class="mask"></div>
                 <div class=" tc_con">
@@ -734,7 +734,7 @@
     </div>
 
     <!--搜索页-->
-    <div class="search" style="display: none;">
+   <!-- <div class="search" style="display: none;">
         <form action="" method="get">
             <span class="glyphicon glyphicon-search"></span>
             <input type="search" id="searchPhone" name="searchPhone" placeholder="请输入您想要入保的机型">
@@ -782,7 +782,7 @@
             </div>
 
         </div>
-    </div>
+    </div>-->
 
     <script src="../../public/js/jquery-3.3.1.min.js"></script>
     <script src="../../public/js/picSlide.js"></script>
@@ -818,8 +818,8 @@
 
                 //搜索页面跳转
                 $('#inSearch').click(function(){
-                    $('.home').hide();
-                    $('.search').show();
+                    // $('.home').hide();
+                    // $('.search').show();
                 });
                 $('#searchPhone').focus(function () {
                     $('.search_list').hide();
