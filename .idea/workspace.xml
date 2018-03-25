@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41cf3eec-de9e-46a7-a98e-6994bb590963" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.less" afterPath="$PROJECT_DIR$/public/css/style.less" />
-      <change beforePath="$PROJECT_DIR$/view/home/index.html" afterPath="$PROJECT_DIR$/view/home/index.html" />
-      <change beforePath="$PROJECT_DIR$/view/home/search.html" afterPath="$PROJECT_DIR$/view/home/search.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +69,8 @@
           <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/view/home/search.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+                <state relative-caret-position="1830">
+                  <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -211,24 +207,6 @@
             <path>
               <item name="myjwy" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjwy" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myjwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myjwy" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myjwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myjwy" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="style.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="myjwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myjwy" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,7 +259,7 @@
       <workItem from="1521507207852" duration="24234000" />
       <workItem from="1521536984170" duration="6965000" />
       <workItem from="1521596240169" duration="18524000" />
-      <workItem from="1521631143183" duration="1146000" />
+      <workItem from="1521631143183" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="no">
       <created>1521537139209</created>
@@ -325,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521626105542</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="no">
+      <created>1521950559678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521950559678</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60069000" />
+    <option name="totallyTimeSpent" value="60372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1045" extended-state="6" />
@@ -832,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/home/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="1830">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
