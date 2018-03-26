@@ -797,11 +797,9 @@
             }
         };
         $(function(){
-
                 //banner
                 var homeBanner = new focusSlide($(".home_banner"));
                 homeBanner.init();
-
                 //选项卡
                 tabControl("click");
                 $("#listBtn").click(function () {
@@ -815,22 +813,6 @@
                         maskIt($(".tc_con"));
                     }
                 });
-
-                //搜索页面跳转
-                $('#inSearch').click(function(){
-                    // $('.home').hide();
-                    // $('.search').show();
-                });
-                $('#searchPhone').focus(function () {
-                    $('.search_list').hide();
-                    $('.search_prompt').show();
-                }).blur(function(){
-                    $('.search_prompt').hide();
-                    $('.search_list').show();
-
-                })
-
-
         });
 
         // 打开遮罩
