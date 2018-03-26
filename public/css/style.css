@@ -548,20 +548,16 @@ img {
   background-color: white;
 }
 .order .order_goods {
-  height: 2.8rem;
   padding: 0  .3rem;
-  box-sizing: border-box;
 }
 .order .order_goods .goods {
   height: 2.05rem;
   padding: .3rem 0;
-  box-sizing: border-box;
   border-bottom: .01rem dashed #e6e6e6;
 }
 .order .order_goods .goods img {
   display: inline-block;
   height: 100%;
-  margin-top: -0.9rem;
 }
 .order .order_goods .goods .title {
   display: inline-block;
