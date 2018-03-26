@@ -558,6 +558,7 @@ img {
 .order .order_goods .goods img {
   display: inline-block;
   height: 100%;
+  margin-top: -0.9rem;
 }
 .order .order_goods .goods .title {
   display: inline-block;
