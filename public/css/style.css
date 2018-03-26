@@ -542,3 +542,211 @@ img {
   background-size: .28rem .28rem;
   background-position: right center;
 }
+.order {
+  width: 100%;
+  color: #323232;
+  background-color: white;
+}
+.order .order_goods {
+  height: 2.8rem;
+  padding: 0  .3rem;
+}
+.order .order_goods .goods {
+  height: 2.05rem;
+  padding: .3rem 0;
+  border-bottom: .01rem dashed #e6e6e6;
+}
+.order .order_goods .goods img {
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  margin-top: -0.9rem;
+}
+.order .order_goods .goods .title {
+  display: inline-block;
+}
+.order .order_goods .goods .title h3 {
+  color: #333;
+  font-size: .38rem;
+}
+.order .order_goods .goods .title p {
+  margin: .06rem 0;
+  color: #666;
+}
+.order .order_goods .goods .title span {
+  color: #f10d0c;
+  font-size: .32rem;
+}
+.order .order_goods > p {
+  color: #666;
+  padding: .2rem 0;
+}
+.order .order_info label {
+  width: 1.6rem;
+  font-weight: 200;
+  font-size: .26rem;
+  letter-spacing: .01rem;
+}
+.order .order_info .phone_title,
+.order .order_info .user_title {
+  padding: 0 .3rem;
+  height: .9rem;
+  line-height: .9rem;
+  background-color: #f5f5f5;
+}
+.order .order_info .phone_title span,
+.order .order_info .user_title span {
+  font-size: .30rem;
+  border-left: .06rem solid #00a1e9;
+  padding-left: .18rem;
+}
+.order .order_info .phone_title a,
+.order .order_info .user_title a {
+  float: right;
+  color: #0178dc;
+  text-decoration: underline;
+}
+.order .order_info .phone {
+  padding: 0  .3rem ;
+  position: relative;
+  height: .9rem;
+  line-height: .9rem;
+}
+.order .order_info .phone input {
+  border: 0;
+  height: .7rem;
+  width: 3.5rem;
+  margin-left: .5rem;
+}
+.order .order_info .phone label {
+  letter-spacing: .01rem;
+}
+.order .order_info .phone img {
+  position: absolute;
+  right: .3rem;
+  top: .2rem;
+  width: .62rem;
+  height: .5rem;
+}
+.order .order_info .user {
+  position: relative;
+}
+.order .order_info .user .user_form > div {
+  height: .9rem;
+  line-height: .9rem;
+  margin: 0  .3rem ;
+  border-bottom: .01rem solid #e6e6e6;
+}
+.order .order_info .user .user_form > div input {
+  border: 0;
+  height: .7rem;
+  width: 3rem;
+  margin-left: .5rem;
+}
+.order .order_info .user .user_form > div:nth-child(1) {
+  width: 5.2rem;
+}
+.order .order_info .user .user_form > div:nth-child(3),
+.order .order_info .user .user_form > div:nth-child(6) {
+  border-bottom: 0;
+}
+.order .order_info .user .user_form p {
+  height: .2rem;
+  background-color: #f5f5f5;
+}
+.order .order_info .user .user_form .coupon span {
+  float: right;
+  font-size: .24rem;
+  color: #676767;
+}
+.order .order_info .user .user_form .coupon span span {
+  line-height: .9rem;
+}
+.order .order_info .user .user_img {
+  position: absolute;
+  top: .2rem;
+  right: .5rem;
+  width: 1.4rem;
+  text-align: center;
+}
+.order .order_info .user .user_img img {
+  width: 1.4rem;
+  height: .96rem;
+}
+.order .order_info .user .user_img span {
+  display: inline-block;
+  color: #666;
+  padding: .05rem;
+  font-size: .25rem;
+  letter-spacing: .01rem;
+}
+.order .order_info .instru {
+  height: 1.8rem;
+  position: relative;
+  background-color: #f5f5f5;
+  padding: .3rem ;
+  line-height: .6rem;
+}
+.order .order_info .instru > a {
+  display: block;
+  font-size: .28rem;
+  color: #0178de;
+  text-decoration: underline;
+}
+.order .order_info .instru label {
+  position: absolute;
+  left: .3rem;
+  top: 1.1rem;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  border: .01rem solid #999;
+}
+.order .order_info .instru input[type="radio"] {
+  width: .3rem;
+  height: .3rem;
+  opacity: 0;
+}
+.order .order_info .instru input:checked + label {
+  background-color: #02a0e9;
+  border: .01rem solid #02a0e9;
+}
+.order .order_info .instru input:checked + label::after {
+  position: absolute;
+  content: "";
+  width: .1rem;
+  height: .19rem;
+  top: .01rem;
+  left: .08rem;
+  border: .04rem solid #fff;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+.order .order_info .instru > span {
+  font-size: .24rem;
+}
+.order .order_info .instru > span a {
+  display: inline;
+}
+.order .order_footer {
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: .3rem;
+}
+.order .order_footer div {
+  display: inline-block;
+  color: #333;
+  font-size: .28rem;
+}
+.order .order_footer div span {
+  color: #f61616;
+  font-size: .3rem;
+}
+.order .order_footer button {
+  float: right;
+  width: 2.4rem;
+  background-color: #00a0ea;
+  color: white;
+  font-size: .36rem;
+}

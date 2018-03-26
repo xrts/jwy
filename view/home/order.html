@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>订单详情</title>
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../../public/css/bootstrap.min.css">
 
     <script>
         document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/7.5+'px';
@@ -15,28 +14,70 @@
     <!--订单详情页-->
     <div class="order">
         <div class="order_goods">
-            <img src="../../public/images/iphoneX.png" alt="">
-            <div class="title">
-                <h3>iPhone X</h3>
-                <p>包含黑色水晶版也可购买</p>
-                <span>￥199</span>
+            <div class="goods">
+                <img src="../../public/images/iphoneX.png" alt="">
+                <div class="title">
+                    <h3>iPhone X</h3>
+                    <p>包含黑色水晶版也可购买</p>
+                    <span>￥199</span>
+                </div>
             </div>
-            <p>注:需购买90天内可购买本服务,否则无效</p>
+            <p>注:&nbsp;&nbsp;须购买90天内可购买本服务,否则无效</p>
         </div>
         <form class="order_info" >
+            <div class="phone_title">
+                <span>提交信息</span>
+                <a href="">如何找到手机IMEI?</a>
+            </div>
             <div class="phone">
-                <div class="phone_title">
-                    <span>提交信息</span>
-                    <a href="">如何找到手机IMEI</a>
-                </div>
+
                 <label for="phoneImei">手机IMEI号:</label>
-                <input type="text" id="phoneImei" placeholder="请填写手机IMEI(必填)">
+                <input type="text" id="phoneImei" name="phoneImei" placeholder="请填写手机IMEI&nbsp;&nbsp;(必填)">
                 <img src="../../public/images/scan.png" alt="">
             </div>
+            <div class="user_title"><span>请填写个人信息</span></div>
             <div class="user">
+                <div class="user_form">
+                    <div class="user_name">
+                        <label for="userName">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</label>
+                        <input type="text"name="userName"  placeholder="请填写您的真实姓名" id="userName">
+                    </div>
+                    <div class="user_id">
+                        <label for="userId">身份证号码:</label>
+                        <input type="text" name="userId" id="userId" placeholder="请填写正确的身份证号码">
+                    </div>
+                    <div class="phone_num">
+                        <label for="phoneNum">手&nbsp;机&nbsp;号&nbsp;码:</label>
+                        <input type="text" name="phoneNum" id="phoneNum" placeholder="请填写您的手机号">
+                    </div>
+                    <p></p>
+                    <div class="invite_code">
+                        <label for="inviteCode">邀&nbsp;&nbsp;&nbsp;请&nbsp;&nbsp;&nbsp;码:</label>
+                        <input type="text" name="inviteCode" id="inviteCode" placeholder="请填写您的门店或店员代码">
+                    </div>
+                    <div class="coupon">
+                        <label>优&nbsp;&nbsp;&nbsp;惠&nbsp;&nbsp;&nbsp;券</label>
+                        <span>暂无可用优惠券<span class="glyphicon glyphicon-menu-right"></span></span>
 
+                    </div>
+                </div>
+                <div class="user_img">
+                    <img src="../../public/images/photo.png" alt="">
+                    <span>身份证识别</span>
+                </div>
+            </div>
+
+            <div class="instru">
+                <a href="">查看碎屏保详情</a>
+                <input type="radio" id="instru" name="instru">
+                <label for="instru"></label>
+                <span>我确认投保手机屏幕完好,并已同意 <a href="">《碎屏保条款》</a></span>
             </div>
         </form>
+        <div class="order_footer">
+            <div>应付总金额 <span>￥199</span></div>
+            <button>确认购买</button>
+        </div>
     </div>
 <script src="../../public/js/jquery-3.3.1.min.js"></script>
 <script src="../../public/js/focusSlide.js"></script>

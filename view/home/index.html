@@ -725,64 +725,8 @@
                 </div>
 
             </div>
-
-
-
-
         </div>
-
     </div>
-
-    <!--搜索页-->
-   <!-- <div class="search" style="display: none;">
-        <form action="" method="get">
-            <span class="glyphicon glyphicon-search"></span>
-            <input type="search" id="searchPhone" name="searchPhone" placeholder="请输入您想要入保的机型">
-            <button>搜索</button>
-        </form>
-        <div class="search_list " >
-            <div class="search_recent">
-                <span class="glyphicon glyphicon-time"></span>
-                <span>最近搜索</span>
-                <span class="glyphicon glyphicon-trash"></span>
-                <div class="recent_opt">
-                    <span>OPPO R9s</span>
-                    <span>OPPO A73</span>
-                </div>
-            </div>
-            <div class="search_hot">
-                <span class="glyphicon glyphicon-fire"></span>
-                <span>热门机型</span>
-                <div class="hot_opt">
-                    <span>OPPO R9s</span>
-                    <span>OPPO A73</span>
-                    <span>iPhone X</span>
-                    <span>Vivo X20</span>
-                    <span>小米6</span>
-                    <span>P10 PLUS</span>
-                </div>
-            </div>
-        </div>
-        <div class="search_prompt " style="display: none">
-            <div>
-                <p><span>OPPO</span>A3</p>
-                <span></span>
-            </div>
-            <div>
-                <p><span>OPPO</span>R9s</p>
-                <span></span>
-            </div>
-            <div>
-                <p><span>OPPO</span>R9s Plus</p>
-                <span></span>
-            </div>
-            <div>
-                <p><span>OPPO</span>A7</p>
-                <span></span>
-            </div>
-
-        </div>
-    </div>-->
 
     <script src="../../public/js/jquery-3.3.1.min.js"></script>
     <script src="../../public/js/picSlide.js"></script>
@@ -813,6 +757,13 @@
                         maskIt($(".tc_con"));
                     }
                 });
+
+                //跳转到订单页
+                $(".tc_con").on("click","div",function(){
+                    location.href='order.html'
+                });
+
+
         });
 
         // 打开遮罩
