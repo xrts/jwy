@@ -560,7 +560,6 @@ img {
   display: inline-block;
   height: 100%;
   line-height: 100%;
-  margin-top: -0.9rem;
 }
 .order .order_goods .goods .title {
   display: inline-block;
@@ -746,6 +745,7 @@ img {
 .order .order_footer button {
   float: right;
   width: 2.4rem;
+  height: 1rem;
   background-color: #00a0ea;
   color: white;
   font-size: .36rem;
