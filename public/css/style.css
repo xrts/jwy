@@ -554,15 +554,14 @@ img {
   height: 2.05rem;
   padding: .3rem 0;
   border-bottom: .01rem dashed #e6e6e6;
-  display: table-cell;
-  vertical-align: middle;
 }
 .order .order_goods .goods img {
   float: left;
-  height: 100%;
+  height: 1.5rem;
 }
 .order .order_goods .goods .title {
   float: left;
+  height: 1.5rem;
   margin-left: .3rem;
 }
 .order .order_goods .goods .title h3 {
