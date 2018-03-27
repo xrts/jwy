@@ -558,7 +558,6 @@ img {
 .order .order_goods .goods img {
   float: left;
   height: 100%;
-  margin-top: -0.9rem;
 }
 .order .order_goods .goods .title {
   float: left;
