@@ -554,6 +554,8 @@ img {
   height: 2.05rem;
   padding: .3rem 0;
   border-bottom: .01rem dashed #e6e6e6;
+  display: table-cell;
+  vertical-align: middle;
 }
 .order .order_goods .goods img {
   float: left;
