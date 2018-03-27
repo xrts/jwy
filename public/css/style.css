@@ -556,11 +556,12 @@ img {
   border-bottom: .01rem dashed #e6e6e6;
 }
 .order .order_goods .goods img {
-  display: inline-block;
+  float: left;
   height: 100%;
 }
 .order .order_goods .goods .title {
-  display: inline-block;
+  float: left;
+  margin-left: .3rem;
 }
 .order .order_goods .goods .title h3 {
   color: #333;
@@ -582,7 +583,6 @@ img {
   width: 1.6rem;
   font-weight: 200;
   font-size: .26rem;
-  letter-spacing: .01rem;
 }
 .order .order_info .phone_title,
 .order .order_info .user_title {
@@ -613,10 +613,7 @@ img {
   border: 0;
   height: .7rem;
   width: 3.5rem;
-  margin-left: .5rem;
-}
-.order .order_info .phone label {
-  letter-spacing: .01rem;
+  margin-left: .3rem;
 }
 .order .order_info .phone img {
   position: absolute;
@@ -637,8 +634,8 @@ img {
 .order .order_info .user .user_form > div input {
   border: 0;
   height: .7rem;
-  width: 3rem;
-  margin-left: .5rem;
+  width: 3.2rem;
+  margin-left: .3rem;
 }
 .order .order_info .user .user_form > div:nth-child(1) {
   width: 5.2rem;
