@@ -42,7 +42,7 @@ focusSlide.prototype = {
         if( this.thumb.children().length == 0 ){
             var thumb_html = "";
             for(var i=0; i<this.slideList.children().length; i++){
-                thumb_html += "<li>" + (i + 1) + "</li>";
+                thumb_html += "<li></li>";
             }
             this.thumb.html(thumb_html);
         }
