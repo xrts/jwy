@@ -297,7 +297,6 @@ img {
   border-radius: .07rem;
   overflow: hidden;
   margin-right: .12rem;
-  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.6);
 }
 .home .home_banner ol li.current {
