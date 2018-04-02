@@ -20,7 +20,6 @@ MultiSlide.prototype = {
 		this.UlElement.css({"width": this.SlideNum * this.SlideWidth + "px"});
 		this.SlideIndex = 0;
 		this.bind();
-		console.log(this.screenNum);
 	},
 	bind: function(){
 		var me = this;
